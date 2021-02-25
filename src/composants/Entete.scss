@@ -1,0 +1,22 @@
+.Entete {
+  position: sticky;
+  top: 0;
+  height: 40px;
+  margin: 0px;
+  padding: 20px;
+  color: #fff;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 10;
+
+  div {
+    cursor: pointer;
+
+    :last-of-type {
+      margin-left: 5px;
+      width: 10%;
+    }
+  }
+}
