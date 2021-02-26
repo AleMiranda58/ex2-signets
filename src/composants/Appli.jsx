@@ -1,4 +1,5 @@
 import Entete from './Entete';
+import './Appli.scss';
 import ListeDossiers from './ListeDossiers';
 import BtnAjoutRessource from './BtnAjoutRessource';
 
