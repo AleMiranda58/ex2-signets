@@ -1,5 +1,6 @@
 .Entete {
   position: sticky;
+  width: 100%;
   top: 0;
   height: 40px;
   margin: 0px;
@@ -15,7 +16,7 @@
     cursor: pointer;
 
     :last-of-type {
-      margin-left: 5px;
+      margin-left: auto;
       width: 10%;
     }
   }
